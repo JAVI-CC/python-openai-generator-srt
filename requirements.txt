@@ -1,0 +1,5 @@
+openai-whisper==20240930
+argostranslategui==1.6.5
+inquirer==3.4.0
+moviepy==1.0.3
+python-dotenv==1.0.1

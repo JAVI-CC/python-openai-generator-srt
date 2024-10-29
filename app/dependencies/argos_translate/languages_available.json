@@ -1,0 +1,30 @@
+[
+  {
+    "code": "en",
+    "name": "English",
+    "targets": [
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ]
+  },
+  {
+    "code": "es",
+    "name": "Spanish",
+    "targets": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ]
+  }
+]

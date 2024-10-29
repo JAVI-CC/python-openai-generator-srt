@@ -1,0 +1,28 @@
+#version: '3'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: javi98/python-generator-srt:1.0.0
+    container_name: python-generator-srt-app
+    restart: unless-stopped
+    command: python3 /code/app/main.py
+    volumes:
+      - ./:/code/app
+      - ./data/audios:/code/app/data/audios
+      - ./data/videos:/code/app/data/videos
+      - ./data/subtitles:/code/app/data/subtitles
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+networks:
+  python-generator-srt:
+    driver: bridge
+

@@ -1,0 +1,16 @@
+.github
+.devcontainer
+
+data/audios/*
+!data/audios/.gitkeep
+
+data/videos/*
+!data/videos/.gitkeep
+
+data/subtitles/*
+!data/subtitles/.gitkeep
+
+__pycache__/
+
+# Env files
+.env
