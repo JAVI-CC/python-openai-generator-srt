@@ -1,7 +1,7 @@
 # Python OpenAI Generator Srt
 
 <p align="center">
-<img src="static/readme/logo_python_openapi.png" alt="OpenAI_Whisper">
+<img width="403" src="static/readme/logo_python_openapi.png" alt="OpenAI_Whisper">
 </p>
 
 ---
