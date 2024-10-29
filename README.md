@@ -136,8 +136,7 @@
 
 <h2>Configure values in the .env file (Optional)</h2>
 
-<pre><code>
-<strong># [tiny, base, small, medium, large, turbo]</strong>
+<pre><code><strong># [tiny, base, small, medium, large, turbo]</strong>
 <strong>WHISPER_LOAD_MODEL="medium"</strong>
 </code></pre>
 
