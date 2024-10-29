@@ -6,5 +6,5 @@ README.md
 .git
 .github
 .devcontainer
-static
+static/
 __pycache__/
