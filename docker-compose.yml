@@ -7,8 +7,10 @@ services:
       dockerfile: Dockerfile
     image: javi98/python-generator-srt:1.0.0
     container_name: python-generator-srt-app
+    tty: true
+    stdin_open: true
     restart: unless-stopped
-    command: python3 /code/app/main.py
+    #command: python3 /code/app/app/main.py
     volumes:
       - ./:/code/app
       - ./data/audios:/code/app/data/audios

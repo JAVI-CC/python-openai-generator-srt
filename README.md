@@ -169,7 +169,8 @@
 <code>$ git clone https://github.com/JAVI-CC/python-openai-generator-srt
 $ cd python-openai-generator-srt
 $ cp .env.example .env # optional
-$ docker compose up</code>
+$ docker compose up -d
+$ docker compose exec app python3 /code/app/app/main.py</code>
 </pre>
 
 <br>
