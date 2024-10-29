@@ -122,7 +122,13 @@
 
 <h3>Setup</h3>
 <pre>
-<code>apt-get install ffmpeg</code>
+<code>$ apt-get install ffmpeg</code>
+</pre>
+<pre>
+<code>$ git clone https://github.com/JAVI-CC/python-openai-generator-srt</code>
+</pre>
+<pre>
+<code>$ cd python-openai-generator-srt</code>
 </pre>
 <pre>
 <code>$ cp .env.example .env # optional</code>
