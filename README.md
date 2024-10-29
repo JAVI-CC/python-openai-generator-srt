@@ -162,7 +162,7 @@
 </ul>
 
 <h4>Containers structure:</h4>
-<div class="highlight highlight-source-shell"><pre>├── python-generator-srt-app</pre></div>
+<div class="highlight highlight-source-shell"><pre>├── python-openai-generator-srt-app</pre></div>
 
 <h4>Setup:</h4>
 <pre>
