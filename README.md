@@ -137,6 +137,11 @@
 <code>$ pip install --no-cache-dir --upgrade -r requirements.txt</code>
 </pre>
 <pre>
+<code># Install translation languages</code>
+<code>$ argospm install translate-en_es</code>
+<code>$ argospm install translate-es_en</code>
+</pre>
+<pre>
 <code>$ python app/main.py</code>
 </pre>
 
