@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: javi98/python-openai-generator-srt:1.0.0
+    image: javi98/python-openai-generator-srt:1.0.1
     container_name: python-openai-generator-srt-app
     tty: true
     stdin_open: true
